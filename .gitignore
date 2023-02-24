@@ -130,3 +130,5 @@ dmypy.json
 
 # images
 UW/
+*.jpg
+*.png
