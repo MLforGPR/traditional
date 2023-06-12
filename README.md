@@ -29,3 +29,14 @@ The final data pipeline is implemented in the Jupyter notebook `data_pipeline_1s
 
 ### Previous Data Pipeline
 `data_pipeline_combined.ipynb` and `data_pipeline_layer.ipynb` are the data pipeline for the 1st dataset only. They are not capable of handling the 2nd dataset and 3rd dataset.
+
+## Validation
+This section describes the validation for the Capstone project. The validation is implemented in the Jupyter notebook `validation.ipynb` and `validation_cnn.ipynb`. `validation.ipynb` is the validation for SVM and `validation_cnn.ipynb` is the validation for CNN. The validation is organized in the following way:
+```
+root directory
+│   validation.ipynb (validation for SVM)
+│   validation_cnn.ipynb (validation for CNN)
+|   ...
+```
+
+This code also contains the code for recording the results of the validation. The results will be saved in the MP4 file `validation.mp4` and `validation_cnn.mp4`.
