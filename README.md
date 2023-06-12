@@ -12,6 +12,7 @@ root directory
 │   validation.ipynb (validation)
 │   ...
 ```
+To run the code, please pull this repository and `data_preprocessing` repository to the same directory. The `data_preprocessing` repository can be found [here](https://github.com/MLforGPR/data_preprocessing).
 
 ## Data Pipeline
 This section describes the data pipeline for the Capstone project. The data pipeline is implemented in the Jupyter notebook `data_pipeline_*.ipynb`. The data pipeline is organized in the following way:
