@@ -7,6 +7,7 @@ root directory
 │   random_forest (folder containing the random forest model)
 |   SVM (folder containing the SVM model)
 |   CNN (folder containing the CNN model)
+|   saved_models (folder containing the saved models)
 |   ...
 │   data_pipeline.ipynb (data pipeline)
 │   validation.ipynb (validation)
@@ -33,8 +34,11 @@ root directory
 │   random_forest (folder containing the random forest model)
 |   SVM (folder containing the SVM model)
 |   CNN (folder containing the CNN model)
+|   saved_models (folder containing the saved models)
 |   ...
 ```
+
+Move saved models to the `saved_models` folder after training the models. The saved models will be used by the data pipeline and validation.
 
 ## Data Pipeline
 This section describes the data pipeline for the Capstone project. The data pipeline is implemented in the Jupyter notebook `data_pipeline_*.ipynb`.  
